@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 min-h-screen flex items-center justify-center;
+}
+
+input, button {
+  @apply focus:outline-none;
+}
+
+button {
+  @apply transition transform hover:scale-105 hover:shadow-lg;
+}
